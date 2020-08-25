@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="myMove()">
     
 <div id ="myContainer" onload="missile()">
     <div class="cloud">
@@ -39,16 +39,24 @@
     </div>
 
     <p>
-        <button id="btn" onclick="missile()">Click Me</button> 
+        <button id="btn" onclick="missile()">Shoot</button> 
         </p>
-<div id ="myAnimation">
+        <p>
+            <button id="btn" onclick="missile2()">Shoot</button> 
+            </p>
+        
+<div id ="plane">
     
-    <img  height="300" id="myAnimation"  width="400" src="./images/619043.png" class="updown" alt="">
+    <img  height="300" id="plane"  width="400" src="./images/619043.png" class="updown" alt="">
 </div>
 <div  >
 <img src="./images/missile.svg" id="missile"  alt="">
 </div>
-</div>
 
+<div  >
+    <img src="./images/missile.svg" id="missile2"  alt="">
+    </div>
+</div>
+<script src="index.js"></script>
 </body>
 </html>
