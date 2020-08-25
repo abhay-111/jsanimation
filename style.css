@@ -103,7 +103,7 @@ position: relative;
 top: 50%;
 }
 #missile{
-height: 100px; width: 100px; position: absolute;top: 15%;right: -10%;
+height: 100px; width: 100px; position: absolute;right: -10%;
 }
 #missile2{
     height: 100px; width: 100px; position: absolute;top: 65%;right: -10%;

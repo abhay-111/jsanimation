@@ -55,20 +55,20 @@ function missile() {
     console.log("misile")
    
       var missile=document.getElementById('missile2')
-    var pos = window.innerWidth;
-    var pos1=window.innerWidth
+    var m2position = window.innerWidth;
     var up=0;
     var id = setInterval(animate1, 3);
     function animate1() {
-      if (pos<50) {
-          pos=window.innerWidth+200
+      if (m2position<50) {
+          m2position=window.innerWidth+200
          
   
       } else {
-        pos--; 
+        m2position--; 
         
-        missile.style.left = pos + 'px';
+        missile.style.left = m2position + 'px';
         missile.style.rotate="225deg"
+       
         
         
       }
