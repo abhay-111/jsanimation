@@ -5,18 +5,7 @@
 
 }
 
-.updown{
-    animation: down 1s infinite alternate;
-}
-@keyframes down{
-    0%{
-        transform: translateY(-50px);
 
-    }
-    100%{
-        transform: translateY(50px);
-    }
-}
 #myContainer {
 width: 100%;
 height:100vh;
@@ -111,7 +100,7 @@ height: 100px; width: 100px; position: absolute;right: -10%;
     }
 
 
-    @media (max-width:768px)
+    @media (max-width:800px)
     {
         .cloud{
             height: 80px;
