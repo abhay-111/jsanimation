@@ -19,11 +19,11 @@ console.log(m2position,mposition)
         } 
         else {
       
-          pposition+=2;
+          pposition++;
           setTimeout(()=>{
           elem.style.rotate='360deg'
           elem.style.transition='1s'
-          },1500) 
+          },2500) 
           
           elem.style.left = pposition + 'px';
         }
@@ -47,7 +47,7 @@ setTimeout(
         if (mposition<0) {
             mposition=window.innerWidth+200
         } else {
-          mposition--; 
+          mposition-=2; 
           
           missile.style.left = mposition + 'px';
           missile.style.rotate="225deg"
@@ -68,11 +68,12 @@ setTimeout(
   var id = setInterval(animate1, 2);
   function animate1() {
     if (m2position<50) {
-        m2position=window.innerWidth+200
+
+        m2position=window.innerWidth
        
 
     } else {
-      m2position--; 
+      m2position-=2; 
       
       missile.style.left = m2position + 'px';
       missile.style.rotate="225deg"
