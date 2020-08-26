@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    
 
 }
 
@@ -107,4 +108,48 @@ height: 100px; width: 100px; position: absolute;right: -10%;
 }
 #missile2{
     height: 100px; width: 100px; position: absolute;top: 65%;right: -10%;
+    }
+
+
+    @media (max-width:768px)
+    {
+        .cloud{
+            height: 80px;
+            width: 80px;
+
+        }
+        #plane{
+            height: 150px;
+            width: 150px;
+        }
+        #missile,#missile2{
+            height: 80px;
+            width: 100px;
+
+        }
+        #missile2{
+            top: 40%;
+        }
+    }
+    @media (max-width:414px)
+    {
+        .cloud{
+            height: 60px;
+            width: 60px;
+
+        }
+        #plane{
+            top: 20%;
+            height: 100px;
+            width: 100px;
+        }
+        #missile,#missile2{
+            height: 40px;
+            width: 80px;
+
+        }
+        #missile2{
+            top: 60%;
+        }
+
     }

@@ -7,7 +7,7 @@ function myMove() {
   var elem = document.getElementById("plane");
     var missile=document.getElementsByClassName('.missile')
   
-  var id = setInterval(animate1, 5);
+  var id = setInterval(animate1, 8);
   function animate1() {
     if (pposition>1200) {
         pposition=0
@@ -34,8 +34,6 @@ function missile() {
     function animate1() {
       if (mposition<0) {
           mposition=window.innerWidth+200
-         
-  
       } else {
         mposition--; 
         
